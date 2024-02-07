@@ -5,33 +5,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../css/product.css">
   <title>Product List</title>
 </head>
 <body>
   <header>
-    <!-- nav section -->
-    <nav class="navbar bg-body-tertiary">
-     <div class="container">
-       <a class="navbar-brand" href="../index.html">LOGO</a>
-       <div class="nav-right d-flex align-items-center">
-         <!-- user -->
-         <a class="navbar-brand" href="./html/login.html">
-           <i class="bi bi-person-circle"></i>
-         </a>
-         <!-- cart -->
-         <a class="navbar-brand" href="#">
-           <i class="bi bi-bag"></i>
-         </a>
-         <!-- search -->
-         <form class="d-flex" role="search">
-           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-           <button class="btn btn btn-outline-light" type="submit">Search</button>
-         </form>
-       </div>
-     </div>
-   </nav>
- </header>
-  
+      <!-- nav section -->
+      <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">LOGO</a>
+        <div class="nav-right d-flex align-items-center">
+          <!-- user -->
+          <a class="navbar-brand" href="./html/login.html">
+            <i class="bi bi-person-circle"></i>
+          </a>
+          <!-- cart -->
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-bag"></i>
+          </a>
+          <!-- search -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products_list">
+      <div class="container">
+        <!-- text section -->
+        <div class="row mx-auto">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>Products</h1>
+          </div>
+        </div>
+        <!-- list section -->
+        <div class="row justify-content-between">
+          <div class="product">
+            <img class="product-img" src="../images/alireza-dolati-OVS3rqXq9gg-unsplash.jpg" alt="T-shirt">
+            <div class="card-body">
+              <h5 class="product-name">T-shirt</h5>
+              <p class="product-price">$20</p>
+              <a href="#" class="btn btn-dark">Add Cart</a>
+            </div>
+          </div>           
+          <div class="product">
+            <img class="product-img" src="../images/photo-1558769132-cb1aea458c5e.avif" alt="T-shirt">
+            <div class="card-body">
+              <h5 class="product-name">T-shirt</h5>
+              <p class="product-price">$20</p>
+              <a href="#" class="btn btn-dark">Add Cart</a>
+            </div>
+          </div>
+          <div class="product">
+              <img class="product-img" src="../images/photo-1553544260-f87e671974ee.avif" alt="T-shirt">
+              <div class="card-body">
+                <h5 class="product-name">T-shirt</h5>
+                <p class="product-price">$20</p>
+                <a href="#" class="btn btn-dark">Add Cart</a>
+              </div>
+          </div>
+          <div class="product">
+              <img class="product-img" src="../images/photo-1553544260-f87e671974ee.avif" alt="T-shirt">
+              <div class="card-body">
+                <h5 class="product-name">T-shirt</h5>
+                <p class="product-price">$20</p>
+                <a href="#" class="btn btn-dark">Add Cart</a>
+              </div>
+          </div>
+          <div class="product">
+              <img class="product-img" src="../images/photo-1553544260-f87e671974ee.avif" alt="T-shirt">
+              <div class="card-body">
+                <h5 class="product-name">T-shirt</h5>
+                <p class="product-price">$20</p>
+                <a href="#" class="btn btn-dark">Add Cart</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>

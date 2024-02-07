@@ -1,0 +1,11 @@
+.product {
+  border: 1px solid black;
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Make images square */
+}
